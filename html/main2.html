@@ -1,0 +1,10 @@
+<html>
+    <head>
+    </head>
+    <body>
+    <script>
+    var queryString = location.hash.substring(1);
+    window.location.replace(`http://localhost:3000/redirection_part2?${queryString}`);
+    </script>
+    </body>
+</html>
